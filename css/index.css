@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300&family=Barlow:wght@100;200;300&family=Bellefair&display=swap');
 
+:root{
+
+    /*Design system for typography*/
+
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
+    --sub-heading1: 28px;
+    --sub-heading2: 14px;
+    --nav-text: 16px;
+    --heading1: 150px;
+    --heading2: 100px;
+    --heading3: 56px;
+    --heading4: 32px;
+    --heading5: 28px;
+
+    /*Design system for colors*/
+    --color-one: #0B0D17;
+    --color-two: #D0D6F9;
+    --color-three: #FFFFFF;
+}   
+
 *{
     padding: 0;
     margin: 0;
