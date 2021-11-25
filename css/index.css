@@ -17,6 +17,7 @@
     --heading5: 28px;
 
     /*Design system for colors*/
+
     --color-one: #0B0D17;
     --color-two: #D0D6F9;
     --color-three: #FFFFFF;
@@ -38,10 +39,12 @@ body{
     width: 85%;
 }
 
-.navlink-wrapper{
+.navbar-wrapper{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center; 
 }
+
+
 
 
