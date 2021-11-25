@@ -4,9 +4,9 @@
 
     /*Design system for typography*/
 
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Bellefair', serif;
+    --font-family1: 'Barlow', sans-serif;
+    --font-family2: 'Barlow Condensed', sans-serif;
+    --font-family3: 'Bellefair', serif;
     --sub-heading1: 28px;
     --sub-heading2: 14px;
     --nav-text: 16px;
@@ -15,6 +15,12 @@
     --heading3: 56px;
     --heading4: 32px;
     --heading5: 28px;
+    --heading6: 80px;
+    --heading7: 15px;
+    --heading8: 20px;
+
+    /* Design system for typography spacing */
+    --font-spacing: 1.5px;
 
     /*Design system for colors*/
 
@@ -45,6 +51,72 @@ body{
     align-items: center; 
 }
 
+/* navlinks dropdown-menu*/
+.nav-links{
+    display: none;
+}
+
+/* navbar logo-icon*/
+.navbar-wrapper #logo-icon{
+    width: 40px;
+    height: 40px;
+}
+
+.explore-wrapper{
+    color: var(--color-three);
+    margin: 48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-group1{
+    text-align: center;
+}
+
+.explore-group1 h3{
+    font-size: var(--nav-text);
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.explore-group1 h1{
+    font-size: var(--heading6);
+    font-family: var(--font-family3);
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-weight: 100;
+}
+
+.explore-paragraph{
+    font-family: var(--font-family1);
+    color: var(--color-two);
+    font-size: var(--heading7);
+    line-height: 1.5rem;
+    font-weight: 200;
+}
+
+.explore-group2{
+    margin-top: 81px;
+    width: 150px;
+    height: 150px;
+    background-color: var(--color-three);
+    padding: 28px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.explore-oval{
+    color: var(--color-one);
+    text-transform: uppercase;
+    font-family: var(--font-family3);
+    font-weight: 100;
+    letter-spacing: var(--font-spacing);
+    font-size: var(--heading8);
+    margin: 40px 0;
+}
 
 
 
