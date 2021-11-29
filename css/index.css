@@ -38,6 +38,7 @@
 body{
     background-image: url(../assets/home/background-home-mobile.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-wrapper{
@@ -118,5 +119,45 @@ body{
     margin: 40px 0;
 }
 
+
+@media screen and (min-width: 768px){
+
+    .main-wrapper{
+        width: 93%;
+    }
+
+    body{
+        background-image: url(../assets/home/background-home-tablet.jpg);
+        background-repeat: no-repeat;
+        background-size: 768px;
+    }
+
+    #hamburger{
+        display: none;
+    }
+
+    .nav-links{
+        display: flex;
+        justify-content: space-between;
+        font-family: var(--font-family2);
+        text-transform: uppercase;
+        background-color: #FFFFFF;
+        padding: 20px;
+        
+    }
+
+    .nav-links li{
+        list-style-type: none;
+        margin: 0 20px;
+    }
+
+    .nav-links li a{
+        text-decoration: none;
+        color: #D0D6F9;
+        background-color: #0B0D17;
+        letter-spacing: 2.3px;
+    }
+
+}
 
 
