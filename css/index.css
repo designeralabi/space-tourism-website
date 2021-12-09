@@ -82,6 +82,7 @@ body{
     font-family: var(--font-family2);
     text-transform: uppercase;
     font-weight: 200;
+    letter-spacing: .38rem;
 }
 
 .explore-group1 h1{
