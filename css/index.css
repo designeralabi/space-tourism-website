@@ -161,6 +161,10 @@ body{
         letter-spacing: 2.3px;
     }
 
+    .explore-wrapper{
+        margin: 106px auto;
+    }
+
     .explore-group1 h1{
         font-size: var(--heading1);
     }
