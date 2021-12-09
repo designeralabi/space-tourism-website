@@ -130,7 +130,7 @@ body{
     body{
         background-image: url(../assets/home/background-home-tablet.jpg);
         background-repeat: no-repeat;
-        background-size: 768px;
+        background-size: cover;
     }
 
     #hamburger{
@@ -142,7 +142,7 @@ body{
         justify-content: space-between;
         font-family: var(--font-family2);
         text-transform: uppercase;
-        background-color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.06);
         padding: 20px;
         
     }
@@ -155,7 +155,6 @@ body{
     .nav-links li a{
         text-decoration: none;
         color: #D0D6F9;
-        background-color: #0B0D17;
         letter-spacing: 2.3px;
     }
 
