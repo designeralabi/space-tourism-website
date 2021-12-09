@@ -213,7 +213,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        max-width: 880px;
+        max-width: 950px;
     }
 
     .explore-group1{
