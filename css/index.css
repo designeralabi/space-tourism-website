@@ -100,6 +100,7 @@ body{
     font-size: var(--heading7);
     line-height: 1.5rem;
     font-weight: 200;
+    max-width: 444px;
 }
 
 .explore-group2{
@@ -158,6 +159,11 @@ body{
         text-decoration: none;
         color: #D0D6F9;
         letter-spacing: 2.3px;
+    }
+
+    .explore-paragraph{
+        font-size: var(--nav-text);
+        line-height: 1.8rem;
     }
 
 }
