@@ -161,6 +161,10 @@ body{
         letter-spacing: 2.3px;
     }
 
+    .explore-group1 h1{
+        font-size: var(--heading1);
+    }
+
     .explore-paragraph{
         font-size: var(--nav-text);
         line-height: 1.8rem;
