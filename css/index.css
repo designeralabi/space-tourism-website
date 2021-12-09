@@ -22,7 +22,7 @@
 
     /* Design system for typography spacing */
     --font-spacing: 1.5px;
-    --font-spacing1: 1.8px;  
+    --font-spacing1: 2px;  
 
     /*Design system for colors*/
 
@@ -177,7 +177,22 @@ body{
         font-size: var(--nav-text);
         line-height: 1.8rem;
     }
+
+    .explore-group2{
+        margin-top: 156px;
+        margin-bottom: 90px;
+        width: 242px;
+        height: 242px;
+    }
     
+    .explore-oval{
+        letter-spacing: var(--font-spacing1);
+        font-size: var(--heading9);
+        top: 103px;
+        left: 48px;
+        right: 48px;
+    }
+
 }
 
 
