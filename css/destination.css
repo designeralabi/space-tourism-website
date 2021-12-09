@@ -45,6 +45,7 @@ body{
     font-weight: 400;
     letter-spacing: var(--font-spacing1);
     text-align: center;
+    margin-top: 24px;
 }
 
 .moon-wrapper{
@@ -55,7 +56,7 @@ body{
 
 .moon-ruler-divide{
     opacity: .2;
-    margin: 32px 0;
+    margin: 32px 0 0;
 }
 
 .moon-section1 img{
@@ -65,10 +66,17 @@ body{
 .moon-links{
     display: flex;
     justify-content: space-between;
+    height: 28px;
+    width: 237.5px;
+    margin: 0 auto;
 }
 
 .moon-links li{
     list-style-type: none;
+}
+
+.moon-links li:hover{
+    border-bottom: 2px solid #FFFFFF;
 }
 
 .moon-links li a{
@@ -85,7 +93,7 @@ body{
     font-size: var(--heading3);
     text-transform: uppercase;
     margin-top: 20px;
-    
+    font-weight: 100;   
 }
 
 .moon-content-paragraph{
