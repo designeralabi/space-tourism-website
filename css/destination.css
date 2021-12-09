@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;700&family=Barlow:wght@100;200;300&family=Bellefair&display=swap');
+
+:root{
+
+    /*Design system for typography*/
+
+    --font-family1: 'Barlow', sans-serif;
+    --font-family2: 'Barlow Condensed', sans-serif;
+    --font-family3: 'Bellefair', serif;
+    --sub-heading1: 28px;
+    --sub-heading2: 14px;
+    --nav-text: 16px;
+    --heading1: 150px;
+    --heading2: 100px;
+    --heading3: 56px;
+    --heading4: 32px;
+    --heading5: 28px;
+    --heading6: 80px;
+    --heading7: 15px;
+    --heading8: 20px;
+    --heading9: 32px;
+    --bodyText: 18px;
+
+    /* Design system for typography spacing */
+    --font-spacing: 1.5px;
+    --font-spacing1: 2px;  
+
+    /*Design system for colors*/
+
+    --color-one: #0B0D17;
+    --color-two: #D0D6F9;
+    --color-three: #FFFFFF;
+} 
+
+body{
+    background: url(/assets/destination/background-destination-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#moon-hero-header{
+    color: var(--color-three);
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: var(--font-spacing1);
+    text-align: center;
+}
+
+.moon-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.moon-ruler-divide{
+    opacity: .2;
+    margin: 32px 0;
+}
+
+.moon-section1 img{
+    margin: 32px 0;
+}
+
+.moon-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moon-links li{
+    list-style-type: none;
+}
+
+.moon-links li a{
+    text-decoration: none;
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+    letter-spacing: var(--font-spacing1);
+    color: var(--color-three);
+}
+
+.moon-content-header{
+    font-family: var(--font-family3);
+    color: var(--color-three);
+    font-size: var(--heading3);
+    text-transform: uppercase;
+    margin-top: 20px;
+    
+}
+
+.moon-content-paragraph{
+    color: var(--color-two);
+    font-family: var(--font-family1);
+    line-height: 25px;
+    font-size: var(--heading7);
+    margin-top: 15px;
+}
+
+.moon-calculation{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-three);
+}
+
+.moon-distance{
+    margin: 32px 0;
+}
+
+
+.moon-calculation span{
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+    font-size: var(--sub-heading2);
+    letter-spacing: 2.36px;
+}
+
+.moon-calculation h4{
+    font-family: var(--font-family3);
+    text-transform: uppercase;
+    font-size: var(--sub-heading1);
+    margin-top: 12px;
+    font-weight: 100;
+}
