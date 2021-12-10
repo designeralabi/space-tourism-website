@@ -19,4 +19,5 @@ This is a solution to the [Space tourism website challenge on Frontend Mentor](h
 some of the things i learnt while working on this project. 
 
 - backdrop-filter : this is used to blur the back on an object
+-- to learn more about the backdrop-filter here:[backdrop-filter-Mdn](https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter)
 - blur(): here i learn which property type it accept like px
