@@ -43,6 +43,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    position: relative;
 }
 
 .main-wrapper{
@@ -56,8 +57,36 @@ body{
     align-items: center; 
 }
 
+/*  hamburger-menu */
+#hamburger{
+    cursor: pointer;
+}
+
+.nav-links li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: var(--color-three);
+    letter-spacing: 2.3px;
+}
+
 /* navlinks dropdown-menu*/
-.nav-links{
+.open-links{
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(40px);
+    text-transform: uppercase;
+    font-family: var(--font-family2);
+    padding: 80px 30px 30px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 254px;
+    height: 100%;
+    z-index: 1;
     display: none;
 }
 
