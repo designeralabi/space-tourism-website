@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;700&family=Barlow:wght@100;200;300&family=Bellefair&display=swap');
+
+:root{
+
+    /*Design system for typography*/
+
+    --font-family1: 'Barlow', sans-serif;
+    --font-family2: 'Barlow Condensed', sans-serif;
+    --font-family3: 'Bellefair', serif;
+    --sub-heading1: 28px;
+    --sub-heading2: 14px;
+    --nav-text: 16px;
+    --heading1: 150px;
+    --heading2: 100px;
+    --heading3: 56px;
+    --heading4: 32px;
+    --heading5: 28px;
+    --heading6: 80px;
+    --heading7: 15px;
+    --heading8: 20px;
+    --heading9: 32px;
+    --heading10: 24px;
+    --bodyText: 18px;
+
+    /* Design system for typography spacing */
+    --font-spacing: 1.5px;
+    --font-spacing1: 2px;  
+
+    /*Design system for colors*/
+
+    --color-one: #0B0D17;
+    --color-two: #D0D6F9;
+    --color-three: #FFFFFF;
+} 
+
+body{
+    background: url(../assets/technology/background-technology-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#technology-hero-header{
+    color: var(--color-three);
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: var(--font-spacing1);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.technology-hero-num{
+    color: rgba(255, 255, 255, 0.3);
+    margin-right: 15px;
+    font-family: var(--font-family2);
+    font-weight: 700;
+    opacity: 0.25px;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.technology-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+}
+
+.technology-section1-post{
+    text-transform: uppercase;
+    color: var(--color-three);
+    font-family: var(--font-family3);
+    font-weight: 100;
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.technology-section1-header{
+    color: var(--color-three);
+    font-family: var(--font-family3);
+    font-style: normal;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-size: var(--heading10);
+    letter-spacing: var(--font-spacing);
+    margin: 10px 0;
+}
+
+.technology-section1-paragraph{
+    color: var(--color-two);
+    font-family: var(--font-family1);
+    font-size: var(--heading7);
+    line-height: 1.5rem;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 5px;
+}
+
+/* .technology-section1-group{
+    display: flex;
+    flex-direction: column-reverse;
+} */
+
+.technology-progress-bar{
+    height: 50px;
+    margin: 30px 0 10px;
+}
+
+.technology-progress-bar a:nth-child(1){
+    background: var(--color-three);
+    color: var(--color-one);
+}
+
+.technology-progress-bar a{
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid var(--color-three);
+    padding: 10px 15px;
+    border-radius: 100%;
+    color: var(--color-three);
+    margin: 0 6px ;
+    transition: all 0.5s;
+}
+
+
+.technology-progress-bar a:hover{
+    background: var(--color-three);
+    color: var(--color-one);
+}
+
+/* .technology-section2{
+    overflow: hidden;
+} */
+
+.technology-section2-img{
+    width: 100%;
+    height: 170px;
+    display: block;
+    position: relative;
+    transform: scale(1.17);
+    object-fit: cover;
+    margin: 40px 0 40px;
+    
+}
+
